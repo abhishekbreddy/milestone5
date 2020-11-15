@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Score Board",
+    "description": "Live score of your favorite",
+    "version": "1.0.0",
+    "icons":{"128":"scoreboard128.png"},
+    "browser_action": {
+        "default_icon":"scoreboard.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":["activeTab"],
+    "content_security_policy":"script-src 'self' https://apis.google.com; object-src 'self'"
+}
